@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About · João Eleutério</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="icon" href="icons/favicon.ico" sizes="any">
+  <style>
+    .about-facts li { grid-template-columns: 90px 1fr; }
+    .about-linklike, .about-facts a { word-break: break-all; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header class="navbar" role="banner">
+    <div class="nav-inner container">
+      <a href="index.html" class="brand">Eleutério.dev</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="career.html" class="nav-link">Career</a>
+        <a href="chat.html" class="nav-link">Chat</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+      <div class="theme-toggle">
+        <input id="themeSwitch" type="checkbox" aria-label="Toggle color theme" />
+        <label for="themeSwitch" class="toggle-label" title="Toggle dark/light">
+          <span class="icon sun" aria-hidden="true">☀</span>
+          <span class="icon moon" aria-hidden="true">🌙</span>
+          <span class="knob" aria-hidden="true"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="page container" role="main">
+    <section class="about-wrap">
+
+      <header class="about-hero">
+        <div class="about-hero-text">
+          <h1 class="about-title">João Eleutério</h1>
+          <p class="about-subtitle">Software Engineer · Backend · Data Science &amp; ML</p>
+          <div class="about-body">
+            <p>Ambitious and adaptable Software Engineer and Data Science graduate student, with solid experience in backend development and databases.</p>
+            <p>Passionate about problem-solving, continuous learning, and knowledge sharing, I thrive in collaborative environments where innovation and efficiency drive meaningful results.</p>
+          </div>
+          <a href="images/cv/CV_JoaoEleuterio.pdf" class="about-btn" target="_blank" rel="noopener">Download CV</a>
+        </div>
+        <div class="about-hero-media">
+          <figure class="about-avatar">
+            <img src="images/photo.jpeg" alt="João Eleutério" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </header>
+
+      <section class="about-grid">
+
+        <article class="about-card">
+          <h2 class="about-card-title">Programming Languages</h2>
+          <ul class="about-chips">
+            <li class="about-chip">Python</li>
+            <li class="about-chip">C#</li>
+            <li class="about-chip">SQL</li>
+            <li class="about-chip">Java</li>
+            <li class="about-chip">C</li>
+            <li class="about-chip">Kotlin</li>
+            <li class="about-chip">Dart</li>
+          </ul>
+        </article>
+
+        <article class="about-card">
+          <h2 class="about-card-title">Tools &amp; Frameworks</h2>
+          <ul class="about-chips">
+            <li class="about-chip">Django</li>
+            <li class="about-chip">.NET</li>
+            <li class="about-chip">UiPath</li>
+            <li class="about-chip">Android</li>
+            <li class="about-chip">Unity3D</li>
+            <li class="about-chip">SQL Server</li>
+            <li class="about-chip">REST APIs</li>
+            <li class="about-chip">Git</li>
+            <li class="about-chip">Azure DevOps</li>
+            <li class="about-chip">scikit-learn</li>
+            <li class="about-chip">LightGBM</li>
+            <li class="about-chip">Pandas</li>
+            <li class="about-chip">NumPy</li>
+            <li class="about-chip">Jupyter Notebook</li>
+          </ul>
+        </article>
+
+        <article class="about-card">
+          <h2 class="about-card-title">Languages</h2>
+          <ul class="about-chips">
+            <li class="about-chip">Portuguese — Native</li>
+            <li class="about-chip">English — B2</li>
+          </ul>
+        </article>
+
+        <article class="about-card">
+          <h2 class="about-card-title">Contact</h2>
+          <ul class="about-facts">
+            <li>
+              <span class="about-facts-label">Email</span>
+              <button id="copyEmail" class="about-linklike" type="button"
+                data-email="joaopedro.cseleuterio@gmail.com">joaopedro.cseleuterio@gmail.com</button>
+            </li>
+            <li>
+              <span class="about-facts-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/jo%C3%A3oeleut%C3%A9rio/" target="_blank" rel="noopener">Profile →</a>
+            </li>
+            <li>
+              <span class="about-facts-label">GitHub</span>
+              <a href="https://github.com/Joao-Eleuterio" target="_blank" rel="noopener">Profile →</a>
+            </li>
+            <li>
+              <span class="about-facts-label">Location</span>
+              <span>Lisbon, Portugal</span>
+            </li>
+          </ul>
+        </article>
+
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> João Eleutério — All rights reserved.</p>
+      <p class="muted">Software Engineer · Backend · Data Science &amp; ML</p>
+    </div>
+  </footer>
+
+  <script src="js/base.js"></script>
+  <script src="js/about.js"></script>
+</body>
+</html>

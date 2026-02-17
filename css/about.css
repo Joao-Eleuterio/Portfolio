@@ -1,0 +1,475 @@
+/* Enhanced About Page - Modern & Professional */
+
+.about-wrap {
+  display: grid;
+  gap: 32px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+/* ---------- ENHANCED HERO ---------- */
+.about-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 48px 40px;
+  border: 1.5px solid var(--outline);
+  border-radius: 24px;
+  background: color-mix(in oklab, var(--bg-elev), transparent 40%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+/* Animated gradient border on hover */
+.about-hero::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, var(--brand), var(--accent), var(--accent-purple));
+  background-size: 200% 200%;
+  border-radius: 24px;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: -1;
+  animation: gradientRotate 4s ease infinite;
+}
+
+@keyframes gradientRotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.about-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg-elev);
+  border-radius: 22px;
+  z-index: -1;
+}
+
+.about-hero:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg), var(--glow);
+  border-color: var(--brand);
+}
+
+.about-hero:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .about-hero { 
+    grid-template-columns: 1fr; 
+    gap: 32px;
+    padding: 32px 24px;
+  }
+}
+
+.about-hero-text { 
+  max-width: 600px;
+  animation: fadeInLeft 0.8s ease-out 0.2s both;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.about-title {
+  margin: 0 0 16px;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-subtitle {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.about-body {
+  margin: 0 0 24px;
+  line-height: 1.75;
+  max-width: 60ch;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.about-body p {
+  margin-bottom: 12px;
+}
+
+.about-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  border-radius: 14px;
+  border: 1.5px solid var(--brand);
+  background: linear-gradient(135deg, var(--brand), var(--brand-dim));
+  color: var(--bg);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  transition: var(--transition);
+  box-shadow: var(--glow);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-btn::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: var(--transition);
+}
+
+.about-btn:hover,
+.about-btn:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg), 0 0 30px rgba(110, 231, 183, 0.5);
+}
+
+.about-btn:hover::before {
+  left: 100%;
+}
+
+/* Enhanced Avatar with 3D effect */
+.about-hero-media { 
+  display: flex; 
+  justify-content: center;
+  animation: fadeInRight 0.8s ease-out 0.4s both;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.about-avatar {
+  width: 280px;
+  height: 280px;
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--brand);
+  background: var(--bg-subtle);
+  box-shadow: var(--shadow-lg), var(--glow);
+  position: relative;
+  transition: var(--transition);
+}
+
+.about-avatar::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand), var(--accent), var(--accent-purple));
+  background-size: 200% 200%;
+  animation: gradientRotate 4s linear infinite;
+  z-index: -1;
+}
+
+.about-avatar:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: var(--shadow-lg), 0 0 40px rgba(110, 231, 183, 0.4);
+}
+
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: var(--transition);
+}
+
+.about-avatar:hover img {
+  transform: scale(1.1);
+}
+
+/* ---------- ENHANCED GRID ---------- */
+.about-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- ENHANCED CARDS ---------- */
+.about-card {
+  padding: 28px 24px;
+  border: 1.5px solid var(--outline);
+  border-radius: 20px;
+  background: color-mix(in oklab, var(--bg-elev), transparent 40%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Card gradient border on hover */
+.about-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+  border-radius: 20px;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: -1;
+}
+
+.about-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg-elev);
+  border-radius: 18px;
+  z-index: -1;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg), var(--glow);
+  border-color: var(--brand);
+}
+
+.about-card:hover::before {
+  opacity: 1;
+}
+
+.about-card-title {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  background: linear-gradient(135deg, var(--text), var(--brand));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---------- ENHANCED CHIPS ---------- */
+.about-chips {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+
+.about-chip {
+  padding: 8px 16px; 
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+  border: 1.5px solid var(--outline);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  transition: var(--transition);
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-chip::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, var(--brand), transparent);
+  opacity: 0.1;
+  transition: var(--transition);
+}
+
+.about-chip:hover {
+  border-color: var(--brand);
+  color: var(--text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(110, 231, 183, 0.2);
+}
+
+.about-chip:hover::before {
+  left: 100%;
+}
+
+/* ---------- ENHANCED FACTS ---------- */
+.about-facts {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  display: grid; 
+  gap: 14px;
+}
+
+.about-facts li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px; 
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid color-mix(in oklab, var(--outline), transparent 50%);
+  transition: var(--transition);
+}
+
+.about-facts li:last-child {
+  border-bottom: none;
+}
+
+.about-facts li:hover {
+  padding-left: 8px;
+}
+
+.about-facts-label {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-facts a,
+.about-linklike {
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  position: relative;
+}
+
+.about-facts a::after,
+.about-linklike::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--brand);
+  transition: var(--transition);
+}
+
+.about-facts a:hover,
+.about-linklike:hover {
+  color: var(--text);
+}
+
+.about-facts a:hover::after,
+.about-linklike:hover::after {
+  width: 100%;
+}
+
+.about-linklike {
+  background: none; 
+  border: none; 
+  padding: 0; 
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: inherit;
+}
+
+.about-empty { 
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Stagger animation for cards */
+.about-card:nth-child(1) {
+  animation: fadeInUp 0.8s ease-out 0.7s both;
+}
+
+.about-card:nth-child(2) {
+  animation: fadeInUp 0.8s ease-out 0.8s both;
+}
+
+.about-card:nth-child(3) {
+  animation: fadeInUp 0.8s ease-out 0.9s both;
+}
+
+.about-card:nth-child(4) {
+  animation: fadeInUp 0.8s ease-out 1s both;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-avatar {
+    width: 220px;
+    height: 220px;
+  }
+  
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .about-card {
+    padding: 24px 20px;
+  }
+  
+  .about-facts li {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+
+/* Dark mode specific enhancements */
+:root:not(.light) .about-card {
+  background: color-mix(in oklab, var(--bg-elev), transparent 30%);
+}
+
+/* Light mode specific adjustments */
+:root.light .about-hero::before,
+:root.light .about-card::before {
+  opacity: 0;
+}
+
+:root.light .about-hero:hover::before,
+:root.light .about-card:hover::before {
+  opacity: 0.5;
+}

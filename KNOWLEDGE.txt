@@ -1,0 +1,86 @@
+JOÃO ELEUTÉRIO — SOFTWARE ENGINEER & DATA SCIENTIST
+============================================================
+
+CONTACT:
+Email: joaopedro.cseleuterio@gmail.com
+LinkedIn: https://www.linkedin.com/in/jo%C3%A3oeleut%C3%A9rio/
+GitHub: https://github.com/Joao-Eleuterio
+
+PROGRAMMING LANGUAGES: Python, C#, SQL Server, Java, C, Kotlin, Dart
+TOOLS & FRAMEWORKS: Scikit-learn, Pandas, NumPy, Seaborn, Matplotlib, Django, .NET, UiPath, Unity3D, REST APIs, GitHub, Azure DevOps
+SPOKEN LANGUAGES: English (B2), Portuguese (Native)
+
+EXPERIENCE:
+
+CGI — Consultant · Software Engineer (Sep 2023 – Present)
+Software Engineer working on large-scale maritime management systems, contributing to backend development in .NET, database modelling, system integrations, and workflow automation.
+Key responsibilities include:
+– implementation of backend modules and micro-features
+– development of SQL Server queries and optimised data structures
+– integrating external platforms (OAuth2, ERP, documentation systems)
+– supporting functional teams and improving system reliability
+– building automated jobs and scheduled tasks using Quartz
+Skills: Consulting, Backend Development, Software Engineering, APIs, Databases, System Integration, Scalability, Security, Enterprise Solutions, Team Collaboration, Ongoing
+
+Worten — Sales Associate (Computing) – Holiday Season (Oct 2021 – Dec 2021)
+Worked as a Sales Associate during the holiday season, assisting customers with electronics and IT products. Developed strong communication, customer-facing, and product-support skills.
+Skills: Retail, Electronics, IT Sales, Customer Service, Communication, Fast-Paced Environment, Adaptability, Holiday Season
+
+Ourivesaria Liberjóia — Sales Associate – Jewelry (Nov 2018 – Mar 2021)
+Assisted customers in a retail jewelry environment, performing product presentation, sales, and service support. Learned customer relationship handling, attention to detail, and store operational routines.
+Skills: Retail, Jewelry, Customer Service, Sales Associate, Inventory Management, Organization, Attention to Detail, Communication, Responsibility
+
+Pizza Hut — Waiter (Aug 2018 – Nov 2018)
+Provided customer service in a fast-paced food service environment, managing orders, coordinating with the kitchen, and ensuring a positive dining experience. Strengthened teamwork, multitasking, and communication skills.
+Skills: Customer Service, Teamwork, Communication, Fast-Paced Environment, Bar Service, Adaptability, Responsibility
+
+EDUCATION:
+
+Universidade Lusófona — Masters Data Science (Oct 2023 – Aug 2025)
+I completed a Master’s degree in Data Science, focusing on advanced Machine Learning, statistical modelling, and data engineering. My thesis applied ML techniques to biomedical diagnostics, involving data pipelines, model optimisation, and custom evaluation metrics.
+
+SERS — Mini Course — Introduction to Artificial Intelligence (Nov 2022 – Nov 2022)
+I completed a short intensive course on Artificial Intelligence, covering foundational ML concepts, supervised learning, and practical applications. The course enhanced my understanding of AI workflows and modern data-driven methodologies.
+
+Universidade Lusófona — Bachelor Computing Engineering (Oct 2020 – Jul 2023)
+I completed a Bachelor’s degree in Computer Engineering, where I developed a solid foundation in software development, algorithms, databases, and computer systems. Throughout the program, I worked on academic and practical projects that strengthened my problem-solving and engineering skills.
+
+ANPRI — Short Course — Introduction to Game Development in Unity 3D (May 2020 – Jun 2020)
+I attended the short course “Introduction to Game Development with Unity 3D,” where I explored C#, interactive systems, game mechanics, and 3D environments. The program provided hands-on experience with Unity and strengthened my understanding of object-oriented design.
+
+INETE — Technical Course in Management and Programming of Computer Systems (Oct 2017 – Jul 2020)
+I completed my secondary education in Computer Systems Programming, where I was introduced to programming fundamentals, system architecture, and IT principles. This period sparked my interest in technology and contributed to the foundations of my technical growth.
+
+PROJECTS:
+
+DeisiGreatGame — This project was developed during my Bachelor’s degree and focuses on building an interactive educational game with progression mechanics, scoring, and a friendly interface. The system was designed with modular architecture to support scalability and ease of maintenance.
+URL: https://github.com/Joao-Eleuterio/deisiGreatGame
+Technologies: Java, Kotlin
+
+University of Wonderland — A creative academic project inspired by a fictional universe, implementing a simplified academic management platform. Includes authentication, user management, structured navigation, and data organisation features.
+URL: https://github.com/Joao-Eleuterio/ProjetoUniPaisMaravilhas
+Technologies: Python
+
+DEISI Rockstar 2021 — A project for the Algorithms and Data Structures course, featuring a custom music reader with playlist management, efficient data structures, and algorithmic functions for search and organisation.
+URL: https://github.com/Joao-Eleuterio/Leitor-de-Musica
+Technologies: Java
+
+Board Game – Chess — A full digital implementation of chess, including legal move validation, turn system, check/checkmate detection, and board rendering. Focuses on object-oriented programming and game logic.
+URL: https://github.com/Joao-Eleuterio/Xadrez
+Technologies: Kotlin
+
+HotMaze — HotMaze is a maze-based game with progressive difficulty, featuring collision detection, obstacle logic, and level design. Built with an emphasis on fluid mechanics and clean gameplay.
+URL: https://github.com/Joao-Eleuterio/HotMaze
+Technologies: Unity3D, C#
+
+Physics — Catapult with Coordinates — A project modelling projectile motion through coordinate-based calculations. Includes trajectory visualization and physics-based computation of distance and height.
+URL: https://github.com/Joao-Eleuterio/Fisica-Catapulta-com-coords
+Technologies: Kotlin
+
+Traffic Signal Detection — A computer vision project from the Visual Computing course, implementing automatic detection and classification of traffic signs. Includes preprocessing, feature extraction, and classifier training.
+URL: https://github.com/Joao-Eleuterio/Deteccao-de-sinais-de-transito
+Technologies: C#
+
+BERT-Powered Question Answering Chat — This project implements a custom Question Answering (QA) system using BERT and HuggingFace Transformers. The model answers factual questions about my background, skills, and professional experience based on a curated knowledge base stored in the website backend.
+The solution includes long-context handling, custom heuristics, server-side model caching, and a fully custom chat interface with multi-tab support, message persistence, typing indicators, and a source-text viewer for transparency.
+Technologies: NLP, BERT, HuggingFace
