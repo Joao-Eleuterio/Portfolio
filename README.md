@@ -1,17 +1,28 @@
-# João Eleutério — Portfolio
+# João Eleutério — Software Engineering Portfolio
 
-Personal software engineering portfolio showcasing projects across backend development, data, automation, and applied machine learning.
+Source code for my personal portfolio, presenting work across **backend engineering, applied machine learning, data and automation**.
 
-## Repository
+## About
 
-This repository contains the source code for my personal portfolio website.
+I'm a Software Engineer with a background in **Computer Engineering** and an **MSc in Data Science**.
 
-### Main sections
+My main interests are:
+
+- backend systems
+- .NET / C#
+- Python
+- data and machine learning
+- APIs and integrations
+- automation
+- production-oriented software engineering
+
+## Portfolio sections
 
 - About
 - Career
 - Projects
-- Skills and technologies
+- Skills
+- Education
 - Contact
 
 ## Tech stack
@@ -19,21 +30,32 @@ This repository contains the source code for my personal portfolio website.
 - HTML
 - CSS
 - JavaScript
-- Static assets
 
-## Featured work
+The portfolio is intentionally lightweight and serves as a central presentation layer for selected projects and professional experience.
 
-The portfolio highlights projects in:
+## Selected projects
 
-- Backend and software engineering
-- Machine learning and data science
-- Research
-- Automation
-- Web applications
+### Calendário Conjunto
+Shared PWA with recurring events, Supabase Realtime and Google Calendar OAuth integration.
+
+### Her Space
+React and Supabase application for habits, academic goals and fitness tracking.
+
+### Lista da Avó
+Real-time collaborative family shopping-list PWA with Supabase and Open Food Facts integration.
+
+### Traffic Sign Detection
+Computer-vision project using OpenCV and image-processing techniques for traffic-sign detection and classification.
+
+## Research
+
+My MSc research focused on the application of **machine learning to SERS/Raman spectroscopy data** for stroke biomarker analysis.
+
+The work included signal preprocessing, PCA, feature engineering and supervised classification.
 
 ## Author
 
 **João Eleutério**  
-Software Engineer with a background in Computer Engineering and Data Science.
+Software Engineer · Backend · AI / Machine Learning
 
 GitHub: https://github.com/Joao-Eleuterio
